@@ -85,3 +85,13 @@ if (precoFruta < 10) {
 }else {
     console.log('fruta cara');
 }
+
+
+// condicional ternário
+
+let isMemberPremium = true;
+
+let shipping = isMemberPremium ? 2 : 10;
+
+console.log(isMemberPremium ? 'Frete grátis' : 'Frete pago');
+console.log("Frete: " + shipping);
