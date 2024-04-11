@@ -95,3 +95,24 @@ let shipping = isMemberPremium ? 2 : 10;
 
 console.log(isMemberPremium ? 'Frete grátis' : 'Frete pago');
 console.log("Frete: " + shipping);
+
+
+//switch case
+
+
+let profession = 'doctor';
+
+switch (profession) {
+    case 'doctor':
+        console.log('medico');
+        break;
+    case 'engineer':
+        console.log('engenheiro');
+        break;
+    case 'artist':
+        console.log('artista');
+        break;
+    default:
+        console.log('profissão desconhecida');
+        break;
+}
