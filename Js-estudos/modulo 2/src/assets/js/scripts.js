@@ -27,3 +27,18 @@ console.log(resultado);
 
 
 // entrada -> processamento -> saída
+
+
+//conditional return
+
+function calcularIdade(idade) {
+  if (idade >= 18) {
+    return 'Maior de idade';
+  } else {
+    return 'Menor de idade';
+  }
+}
+
+let resultadoIdade = calcularIdade(20);
+
+console.log(resultadoIdade);
