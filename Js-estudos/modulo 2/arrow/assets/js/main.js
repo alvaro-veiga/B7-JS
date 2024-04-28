@@ -13,3 +13,12 @@ const multiply = (x, y) => x * y;
 
 console.log(sum(1, 2));
 console.log(multiply(2, 3));
+
+let count = 0;
+
+function increment() {
+    count++;
+}
+
+increment();
+console.log(count);
